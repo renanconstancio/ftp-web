@@ -1,6 +1,6 @@
 on:
   push:
-    branchs:
+    branches:
       - master
 name: 🚀 Deploy website on push
 jobs:
@@ -14,7 +14,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-         server: ftp.nodejsng10f03.kinghost.net
+          server: ftp.nodejsng10f03.kinghost.net
           username: kmenegociosimobiliarios
           password: K@sch0ut
           
